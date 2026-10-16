@@ -10,8 +10,11 @@ dependencies:
   - python-dotenv
   - pip
   - pip:
-      - langchain-openai
-      - tavily-python
       - langchain-google-genai>=4.2.2
       - langchain-groq>=0.3.0
+      - langchain-openai
+      - langchain_community
+      - tavily-python
+      - pymupdf
+      - python-docx
 
