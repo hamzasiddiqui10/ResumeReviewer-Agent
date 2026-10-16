@@ -1,0 +1,17 @@
+name: agentic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pydantic
+  - pypdf
+  - ipykernel
+  - python-dotenv
+  - pip
+  - pip:
+      - langchain-openai
+      - tavily-python
+      - langchain-google-genai>=4.2.2
+      - langchain-groq>=0.3.0
+
