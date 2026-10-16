@@ -1,0 +1,225 @@
+AI Solutions Engineer 
+
+Antwerp, Flemish Region, Belgium · 1 week ago · Over 100 applicants
+
+No response insights available yet
+
+Hybrid
+Full-time
+
+Easy Apply
+
+Save
+Your profile and resume match the required qualifications well
+
+
+
+Show match details
+
+BETA • Is this information helpful?
+
+
+See how you compare to over 100 other applicants
+
+Access exclusive applicant insights, see jobs where you have the highest chance of hearing back, and more.
+
+Restart Premium for €0
+
+About the job
+About Oper
+Oper, a European Fintech company, is a leader in cloud-based digital mortgage software. We provide personalized journeys for borrowers and lenders. Oper's technology streamlines the mortgage application process, eliminates paperwork, and increases transparency.
+The fastest growing part of our business is Herman, our AI agent for mortgage origination. Herman reads documents, checks them, and works a credit file the way an analyst would, inside the regulated workflow of a real bank. It runs on sovereign EU infrastructure, because our clients cannot send mortgage data anywhere else. Phase by phase, it automates more of the origination process: first employed borrowers, then the self-employed, and onward. This is not a chatbot bolted onto old software. It is agentic software doing real work in a regulated environment.
+A passionate and engaging team of around 30 stellar Fintech operators works vigorously to transform European mortgages by enhancing efficiency and alleviating borrower anxiety. Backed by Bessemer Venture Partners and Motive Ventures, we have raised EUR 14 million, placing Oper at the forefront of revolutionizing mortgages in Europe. Oper currently has offices in Zürich, Switzerland, and Antwerp, Belgium.
+Now, we're looking for an AI Solutions Engineer to join our AI Squad and help shape the future of automated mortgages in Europe and beyond.
+Your Mission
+You'll join the AI Squad, the team building Herman. This is a hands-on, hybrid role spanning AI engineering, product management, and solutions architecture. You'll scope and build working AI prototypes, take them in front of real banks to pressure-test against live mortgage workflows, and work alongside the team to turn these into working Herman features. You own delivery end-to-end: from a rough use case to a shipped capability, communicating progress clearly the whole way. This is an applied role, not a research one. We want a builder who can both code and collaborate, who is comfortable in front of a client in the morning and deep in a codebase in the afternoon.
+Tasks
+What you'll do
+
+Scope and build working AI prototypes - LLMs, RAG, agentic automation, and integrations - that solve concrete origination problems.
+
+Engage directly with clients: run workshops, gather requirements, demo, and iteratively refine solutions against the real workflows of regulated banks.
+
+Define and manage AI use cases, structuring them functionally so they can scale beyond a single client.
+
+Work closely within your team to turn validated prototypes into production features.
+
+Own delivery timelines and communicate progress clearly to both clients and internal stakeholders.
+
+
+
+Work AI-native
+Building agentic software is the job, and we expect you to build the way you ship: AI-first.
+
+Write code AI-first: agents produce the bulk of your code under your direction, while you own the architecture, integrations, review, and quality. We measure your output in shipped value, not hand-typed lines.
+
+Build agentic workflows that do real work: scaffolding prototypes and integrations from a spec, generating and running tests, drafting evaluation harnesses, and reviewing diffs.
+
+Use modern AI tooling as the default way you build, configure, and debug, not as an occasional helper.
+
+Aim for a delivery cadence a non-AI-native engineer simply cannot match, and help us raise the bar on what an AI-native delivery function looks like at Oper.
+
+
+
+Requirements
+What you'll bring
+
+4 to 6 years of experience in software development, with hands-on AI/LLM work.
+
+Strong with Python and modern AI tooling: LLMs, RAG, agent frameworks, orchestration, and evaluation.
+
+Able to structure projects functionally and own delivery end-to-end, from scoping to shipped feature.
+
+Comfortable being client-facing: running workshops, gathering requirements, and translating ambiguity into working software.
+
+Comfortable working with flexible and loosely defined requirements, bringing your own structure where needed.
+
+Genuinely AI-native: agents already write most of your code and you build agentic workflows to multiply your output. You can name the tools, the workflows, and the concrete recent projects where AI gave you real leverage.
+
+Excellent communication skills.
+
+Creative and analytical mindset.
+
+Ambition to learn, experiment, and grow while staying humble and open-minded.
+
+Fluency in English; additional languages (e.g. Dutch, German) are a plus.
+
+Experience in a relevant industry (financial services) and thriving in a scale-up environment are a plus.
+
+
+
+This is an applied, client-facing, cross-functional role. We are not looking for researchers, "idea people," or internal-only engineers.
+Location & Setup
+
+Belgium-based candidates: hybrid setup with 2 to 3 days per week in our Antwerp office
+
+Working in CET hours
+
+Reporting to the CTO
+
+Close collaboration with the AI Squad, Product, and client-facing teams
+
+
+
+Benefits
+As a fast-growing fintech, we're building a team where you can truly make an impact.
+We offer:
+
+Competitive annual salary, depending on experience
+
+Employee stock options
+
+25 vacation days per year + 1 paid mental health day
+
+Dynamic international team with 12 nationalities
+
+Supportive, inclusive, and collaborative culture
+
+Learning & Development budget with dedicated time for growth
+
+Structured onboarding with a dedicated mentor
+
+Travel budget to collaborate with teams in Antwerp
+
+Annual company-wide Team G2G in an inspiring location
+
+Extra-legal benefits depending on your location
+
+Full support with local administration
+
+Health insurance and pension scheme
+
+Flexible working hours
+
+All equipment needed to do your best work
+
+
+
+The position is also open for freelancers.
+Inclusive at Our Core
+Oper is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees and contractors. All applications are considered without regard to race, religion, gender, gender identity, sexual orientation, disability, age, or any other protected status.
+
+
+------
+
+Company logo for, Almedia.
+Almedia
+
+
+Data Scientist
+
+Berlin, Germany · 1 week ago · Over 100 people clicked apply
+
+Responses managed off LinkedIn
+
+On-site
+Full-time
+
+Apply
+
+Save
+Your profile and resume match the required qualifications well
+
+
+
+Show match details
+
+BETA • Is this information helpful?
+
+
+See how you compare to over 100 others who clicked apply
+
+Access exclusive applicant insights, see jobs where you have the highest chance of hearing back, and more.
+
+Restart Premium for €0
+
+People you can reach out to
+
+Adrian Grüneklee 
+
+• 3rd
+
+Venture Manager @Almedia | ESN | ProSiebenSat.1 | KPMG | UBS | M.Sc. Management
+
+School alum from The University of Göttingen
+
+Message
+About the job
+This isn’t your regular job. Almedia is a place where those who want to push harder can accelerate their careers faster than anywhere else. We’re aiming to become Germany’s second bootstrapped unicorn. Almedia is already Europe’s #3 fastest-growing company in 2025 (FT1000).
+
+We are building the future of marketing by rewarding our community of over 95 million users for engaging with our advertisers’ products. We are offering a new way to acquire users for the biggest companies in the world.
+
+Berlin, On-site
+
+Top-of-Market Compensation - Exceptional commitment deserves exceptional reward
+
+Most data scientists transition from research or academic work to production starting with dashboards and historical reporting. Here, you'll ship models that run live and shape what millions of users see every day. You'll take the rigor you've built in research and apply it to problems at scale. Your first 12 months compress what takes 3 years elsewhere.
+
+You'll join a small team of people who have built and shipped ML systems at scale. You'll work on real problems from week one with the support to solve them. Show us you can own more, and we'll give you more.
+
+What You'll Do
+
+Build and ship models that predict user value, engagement, and reward behaviour. See them live in production.
+Design and run A/B tests on offers, rewards, and ranking. Work out what actually caused the result through causal reasoning.
+Build data infrastructure and measurement systems that let you reason rigorously about impact.
+Own undefined product problems from first idea to production. No playbook. You own it all.
+
+What You'll Bring
+
+Strong Python and SQL. You use AI tools to move faster, and you still verify the output.
+Research or academic background with proof of depth: published work, thesis, strong coursework, or competition results.
+You get going on a vague problem without waiting for a spec, and you take it further than you were asked.
+You quickly see which number matters and which question to answer first.
+You think in causation and testable hypotheses. You debug rigorously when things break.
+Bonus: Kaggle competition results, published papers, thesis work, or a system you built and hardened yourself.
+
+Why Almedia
+
+Grow at Almedia: profitable from launch, higher revenue per employee than Big Tech.
+Sharp, small team: we keep it small on purpose, every hire raises the bar.
+Equity: every Berlin employee gets a stake.
+Top-of-market baseline. Deliver outlier impact, earn accordingly.
+
+Small team, high bar. Growing at scale. If that sounds like home, apply.
+
+We believe in fostering talent, evaluating all skill levels during the hiring process, and providing a clear path for growth. Almedia is an equal opportunity employer. We embrace and celebrate diversity, and encourage individuals from all backgrounds to apply.
