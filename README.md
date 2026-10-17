@@ -7,8 +7,8 @@ A production-ready agentic AI application that analyzes a candidate's resume aga
 ## Demo
 
 <!-- Replace the placeholder below with your screen-recording GIF -->
-![App demo](assets/demo.gif)
-
+<!-- ![App demo](assets/demo.gif) -->
+<video src="assets/demo.mov" autoplay loop muted playsinline width="100%"></video>
 ---
 
 ## Pipeline Architecture
