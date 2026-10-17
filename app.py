@@ -344,11 +344,9 @@ if st.session_state.report is not None:
     header_col, dl_col = st.columns([3, 1], vertical_alignment="bottom")
 
     with header_col:
-        st.subheader("🎯 Jobs Analyzed")
-        job_labels = [
-            f"{j.company_name} — {j.job_title}" for j in report.extracted_jobs
-        ]
-        st.pills("Positions", job_labels, default=job_labels, disabled=True)
+        st.subheader("Jobs Analyzed")
+        for j in report.extracted_jobs:
+            st.badge(f"{j.company_name} — {j.job_title}", icon="🎯")
 
     with dl_col:
         st.download_button(
@@ -380,7 +378,7 @@ if st.session_state.report is not None:
     st.divider()
 
     # Bullet rewrites (full width)
-    st.subheader("✏️ Bullet Point Rewrites")
+    st.subheader("Bullet Point Rewrites")
 
     for idx, rw in enumerate(report.bullet_rewrites, 1):
         with st.expander(f"Rewrite #{idx}", expanded=True):

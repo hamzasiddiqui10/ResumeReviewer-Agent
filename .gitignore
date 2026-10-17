@@ -4,13 +4,12 @@ __pycache__/
 *$py.class
 
 
-
 dev/data/resume.*
 .env
 dev/prompt.txt
 dev/main_v1.ipynb
 dev/testing.ipynb
-
+resume_analysis_history.txt
 
 # C extensions
 *.so
