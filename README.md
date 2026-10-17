@@ -178,7 +178,8 @@ Create a `.env` file in the project root:
 
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
-LANGCHAIN_TRACING_V2=true
+LANGCHAIN_TRACING_V2=false
+LANGSMITH_TRACING=false
 LANGCHAIN_API_KEY=your_langsmith_api_key_here
 ```
 

@@ -5,10 +5,11 @@ __pycache__/
 
 
 dev/data/resume.*
-.env
 dev/prompt.txt
 dev/main_v1.ipynb
 dev/testing.ipynb
+
+.env
 resume_analysis_history.txt
 
 # C extensions
