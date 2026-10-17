@@ -11,78 +11,20 @@ A production-ready agentic AI application that analyzes a candidate's resume aga
 ![](assets/demo.gif)
 ---
 
-## Pipeline Architecture
+## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                         Streamlit UI                            │
-│                                                                 │
-│   Sidebar                          Main Dashboard               │
-│   ┌──────────────────┐             ┌───────────────────────┐    │
-│   │  Resume Upload   │             │  Jobs Analyzed        │    │
-│   │  (.pdf/.docx)    │             │  Matching Skills      │    │
-│   │                  │             │  Missing Skills       │    │
-│   │  Job Description │             │  Skill Gap Summary    │    │
-│   │  (file / paste)  │             │  Bullet Rewrites      │    │
-│   │                  │             │  Download Report      │    │
-│   │  [Analyze]       │             └───────────────────────┘    │
-│   └──────────────────┘                                          │
-└────────────────┬────────────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                       Document Parsing                          │
-│                                                                 │
-│   load_resume_text()                                            │
-│   ┌──────────────────────────────────────────────┐             │
-│   │  .pdf  ──►  PyMuPDFLoader  ──►  plain text   │             │
-│   │  .docx ──►  UnstructuredWordDocumentLoader   │             │
-│   └──────────────────────────────────────────────┘             │
-│                                                                 │
-│   load_and_clean_job_descriptions()                             │
-│   ┌──────────────────────────────────────────────┐             │
-│   │  raw text  ──►  split on "------"            │             │
-│   │            ──►  strip boilerplate lines      │             │
-│   │            ──►  collapse whitespace          │             │
-│   └──────────────────────────────────────────────┘             │
-└────────────────┬────────────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                      LCEL Chain (cached)                        │
-│                                                                 │
-│   ChatPromptTemplate                                            │
-│   ┌──────────────────────────────────────────────┐             │
-│   │  system: Senior Technical Recruiter persona  │             │
-│   │  human:  {resume_context} + {job_data}       │             │
-│   └──────────────────────┬───────────────────────┘             │
-│                          │                                      │
-│                          ▼                                      │
-│   ChatGoogleGenerativeAI (gemini-2.5-flash, temp=0.1)          │
-│   .with_structured_output(ResumeAnalysisReport)                │
-│                          │                                      │
-│                          ▼                                      │
-│   ResumeAnalysisReport  (Pydantic)                             │
-│   ┌──────────────────────────────────────────────┐             │
-│   │  extracted_jobs    List[JobTarget]            │             │
-│   │  matching_skills   List[str]                  │             │
-│   │  missing_skills    List[str]                  │             │
-│   │  skill_gap_summary str                        │             │
-│   │  bullet_rewrites   List[ActionableRewrite]    │             │
-│   └──────────────────────────────────────────────┘             │
-└────────────────┬────────────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                         Output Layer                            │
-│                                                                 │
-│   format_report_text()  ──►  human-readable string             │
-│   save_to_history()     ──►  resume_analysis_history.txt       │
-│   st.download_button()  ──►  .txt download in browser          │
-└─────────────────────────────────────────────────────────────────┘
-```
+```mermaid
+flowchart LR
+    A([Resume\n.pdf / .docx]) --> C[Document Parsing]
+    B([Job Descriptions\nfile / paste]) --> C
+
+    C --> D[LCEL Chain\nPrompt + Gemini 2.5 Flash]
+    D --> E[Pydantic Schema\nResumeAnalysisReport]
+    E --> F([Streamlit Dashboard\nReport + Download])
+    E --> G([resume_analysis_history.txt])
 
 ---
+
 
 ## Project Structure
 
