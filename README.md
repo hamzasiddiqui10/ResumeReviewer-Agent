@@ -8,8 +8,7 @@ A production-ready agentic AI application that analyzes a candidate's resume aga
 
 <!-- Replace the placeholder below with your screen-recording GIF -->
 <!-- ![App demo](assets/demo.gif) -->
-<video src="https://github.com/hamzasiddiqui10/ResumeReviewer-Agent/raw/refs/heads/main/assets/demo.mov" autoplay loop muted playsinline width="100%"></video>
-
+![](assets/demo.gif)
 ---
 
 ## Pipeline Architecture
