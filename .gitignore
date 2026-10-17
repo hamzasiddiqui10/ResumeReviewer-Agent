@@ -5,8 +5,10 @@ __pycache__/
 
 
 
-dev/resume.*
+dev/data/resume.*
 .env
+prompt.txt
+
 
 
 

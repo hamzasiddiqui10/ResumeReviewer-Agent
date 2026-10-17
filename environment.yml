@@ -6,6 +6,7 @@ dependencies:
   - python=3.11
   - pydantic
   - pypdf
+  - streamlit
   - ipykernel
   - python-dotenv
   - pip
