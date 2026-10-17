@@ -11,7 +11,7 @@ A production-ready agentic AI application that analyzes a candidate's resume aga
 ![](assets/demo.gif)
 ---
 
-## Pipeline Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
