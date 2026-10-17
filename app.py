@@ -176,7 +176,7 @@ def get_chain():
         [("system", system_prompt), ("human", user_prompt)]
     )
 
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.1)
+    llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", temperature=0.1)
     structured_llm = llm.with_structured_output(ResumeAnalysisReport)
     return prompt | structured_llm
 
@@ -365,16 +365,16 @@ if st.session_state.report is not None:
     left_col, right_col = st.columns([1, 1], gap="large")
 
     with left_col:
-        with st.expander("✅ Matching Skills", expanded=True):
+        with st.expander("Matching Skills", expanded=True):
             for skill in report.matching_skills:
                 st.markdown(f"- {skill}")
 
-        with st.expander("❌ Missing Skills", expanded=True):
+        with st.expander("Missing Skills", expanded=True):
             for skill in report.missing_skills:
                 st.markdown(f"- {skill}")
 
     with right_col:
-        st.subheader("🧠 Skill Gap Summary")
+        st.subheader("Skill Gap Summary")
         st.info(report.skill_gap_summary)
 
     st.divider()
@@ -394,13 +394,13 @@ if st.session_state.report is not None:
                 st.markdown("**After**")
                 st.success(rw.suggested_text)
 
-            st.markdown("**💡 Reasoning**")
+            st.markdown("**Reasoning**")
             st.caption(rw.reasoning)
 
     st.divider()
 
     # Raw report text (collapsible)
-    with st.expander("📋 Full Report Text", expanded=False):
+    with st.expander("Full Report Text", expanded=False):
         st.code(report_text, language=None)
 
     st.caption(
@@ -413,7 +413,7 @@ else:
     st.markdown(
         """
         <div style="text-align:center; padding: 4rem 0; color: #888;">
-            <h3>👈 Configure inputs in the sidebar and click <em>Analyze Resume</em></h3>
+            <h3>Configure inputs in the sidebar and click <em>Analyze Resume</em></h3>
             <p>Your structured analysis will appear here.</p>
         </div>
         """,

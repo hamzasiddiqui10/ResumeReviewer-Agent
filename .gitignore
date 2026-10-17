@@ -7,10 +7,9 @@ __pycache__/
 
 dev/data/resume.*
 .env
-prompt.txt
-
-
-
+dev/prompt.txt
+dev/main_v1.ipynb
+dev/testing.ipynb
 
 
 # C extensions
