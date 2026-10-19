@@ -4,10 +4,7 @@ __pycache__/
 *$py.class
 
 
-dev/data/resume.*
-dev/prompt.txt
-dev/main_v1.ipynb
-dev/testing.ipynb
+dev/
 
 .env
 resume_analysis_history.txt
