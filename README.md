@@ -92,14 +92,8 @@ ResumeReviewer-Agent/
 ├── environment.yml               # Conda environment specification
 ├── resume_analysis_history.txt   # Append-only run log (auto-created)
 ├── .env                          # API keys (not committed)
-├── assets/
-│   └── demo.gif                  # Screen recording for README
-└── dev/
-    ├── main.ipynb                # Prototyping notebook
-    └── data/
-        ├── resume.pdf
-        ├── job_desc.txt
-        └── resume_analysis_history.txt
+└── assets/
+    └── demo.gif                  # Screen recording for README
 ```
 
 ---
