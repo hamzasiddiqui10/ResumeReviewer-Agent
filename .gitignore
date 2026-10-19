@@ -7,6 +7,8 @@ __pycache__/
 dev/
 
 .env
+.DS_Store
+
 resume_analysis_history.txt
 
 # C extensions
